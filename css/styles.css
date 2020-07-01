@@ -1,0 +1,72 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#title{
+  background-color: #ff4C68;
+}
+
+#main-header{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+  padding-top: 50px;
+  color: white;
+  padding-bottom: 50px;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+}
+
+.nav-link{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+}
+
+.nav-item{
+  padding: 0 20px 0 20px;
+}
+
+#phone-image{
+width: 60%;
+transform: rotate(25deg);
+margin-left: 10%;
+}
+
+#phone-container{
+
+  padding-top: 100px;
+  overflow-y: : hidden;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#features{
+  text-align: center;
+  padding-top: 80px;
+}
+
+.fas{
+  color: peachpuff;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.fas:hover{
+  color: red;
+}
+
+.feature-box{
+  padding-bottom: 4rem;
+}
