@@ -1,12 +1,12 @@
-body{
+body {
   font-family: 'Ubuntu', sans-serif;
 }
 
-#title{
+#title {
   background-color: #ff4C68;
 }
 
-#main-header{
+#main-header {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
@@ -16,98 +16,164 @@ body{
   padding-bottom: 50px;
 }
 
-.container-fluid{
-  padding: 3% 15%;
+.container-fluid {
+  padding: 3% 15% 5% 15%;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: 'Ubuntu', sans-serif;
   font-size: 2rem;
 }
 
-.nav-link{
+.nav-link {
   font-family: 'Ubuntu', sans-serif;
   font-size: 1rem;
 }
 
-.nav-item{
+.nav-item {
   padding: 0 20px 0 20px;
 }
 
-#phone-image{
-width: 60%;
-transform: rotate(25deg);
-margin-left: 10%;
+#phone-image {
+  width: 60%;
+  transform: rotate(25deg);
+  margin-left: 10%;
+  position: absolute;
 }
 
-#phone-container{
+@media (max-width: 1028px) {
+  #phone-image {
+    position: static;
+    transform: rotate(0);
+    margin-left: 0%;
+  }
+  #title{
+    text-align: center;
+  }
+}
 
+#phone-container {
   padding-top: 100px;
   overflow-y: : hidden;
 }
 
-h3{
+h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
 }
 
-#features{
+#features {
   text-align: center;
+  position: relative;
+  background-color: #fff;
 }
 
-.fas{
+.icon {
   color: peachpuff;
   font-size: 4rem;
   padding-bottom: 1rem;
 }
 
-.fas:hover{
+.icon:hover {
   color: red;
 }
 
-.feature-box{
-  padding:4.5%;
+.feature-box {
+  padding: 4.5%;
 }
 
 /* testimonials */
-
-#testimonials{
-  padding: 7% 15%;
+#testimonials {
   text-align: center;
   background-color: #ff4C68;
   color: #fff;
 }
 
-h2{
+h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 800;
 }
 
-.testimonial-image{
-  width:10%;
+.testimonial-image {
+  width: 10%;
   border-radius: 20%;
   margin: 20px;
 }
 
-#press{
+#press {
   text-align: center;
   background-color: #ff4C68;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 
-.press-logo{
+.press-logo {
   width: 15%;
   margin: 0 15px 0 15px;
 }
 
 .carousel-control-next,
 .carousel-control-prev {
-    filter: invert(100%);
+  filter: invert(100%);
 }
 
-.carousel-item{
-  padding: 0 10% 0 10%;
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Signup Section */
+.card-body {}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+/* Bottom Section */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-title{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+  color: #fff;
+  padding: 5% 15% 2%;
+}
+
+.cta-button{
+  margin: 0% 1% 5%;
+}
+
+/* footer */
+
+.icons{
+  font-size: 4rem;
+  color: black;
+
+}
+
+#footer{
+  background-color: #fff;
+  padding: 5%;
+  text-align: center;
+  letter-spacing: 1.5rem;
+}
+
+.copyright{
+  letter-spacing: normal;
+  padding-top: 3%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.8rem;
+  color: grey;
 }
